@@ -1,11 +1,25 @@
 ---
-title: "demo-netlify"
+title: "Welcome"
 ---
 
-This is a Quarto website, hos ted in Github, and published to Netlify.
+```{r setup, include = FALSE}
+library(tidyverse)
+library(plotly)
+```
+
+This is a Quarto website, hosted in Github, and published to Netlify.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1
+#| code-fold: true
+gg1 = storms |> 
+  count(year, name) |> 
+  count(year, name = "count") |> 
+  ggplot(aes(x = year, y = count)) +
+  geom_col() + 
+  theme_minimal() +
+  labs(title = "Number of Tropical Cyclones in North Atlantic")
+
+ggplotly(gg1)
 ```

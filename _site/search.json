@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "demo-netlify",
+    "title": "Welcome",
     "section": "",
-    "text": "This is a Quarto website, hos ted in Github, and published to Netlify.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website, hosted in Github, and published to Netlify.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nCode\ngg1 = storms |&gt; \n  count(year, name) |&gt; \n  count(year, name = \"count\") |&gt; \n  ggplot(aes(x = year, y = count)) +\n  geom_col() + \n  theme_minimal() +\n  labs(title = \"Number of Tropical Cyclones in North Atlantic\")\n\nggplotly(gg1)"
   },
   {
     "objectID": "about.html",
