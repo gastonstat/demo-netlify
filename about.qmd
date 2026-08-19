@@ -2,8 +2,7 @@
 title: "About"
 ---
 
-About this site
+The purpose of this website is to have a simple demo for how to 
+showcase a Quarto website, hosted in GitHub, and deployed to Netlify.
 
-```{r}
-1 + 1
-```
+
