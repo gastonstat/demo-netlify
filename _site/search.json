@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "The purpose of this website is to have a simple demo for how to showcase a Quarto website, hosted in GitHub, and deployed to Netlify."
   },
   {
     "objectID": "index.html",
